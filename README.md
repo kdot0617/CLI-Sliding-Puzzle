@@ -10,21 +10,23 @@ This project is a command-line sliding puzzle game. The player is presented with
 ## Example Board Layout
 When the game starts, a 3x3 board will be rendered as shown below. The underbar(_) represents an empty space.
 
-'''text
+```text
  1 | 3 | 5 
 ---+---+---
  8 | 2 | 6 
 ---+---+---
  4 | 7 | _
+```
 
 The goal of this game is to arrange them same as target board, arranged in order. In order means
 
-'''text
+```text
  1 | 2 | 3 
 ---+---+---
  4 | 5 | 6 
 ---+---+---
  7 | 8 | _
+```
 
 ## Playing Mode
 The game starts in this state. Shuffled board will be given. The player use keyboard to play.
