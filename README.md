@@ -3,12 +3,12 @@ This project is a command-line sliding puzzle game. The player is presented with
 
 # How to Run
 1. Ensure you have the **.NET 10 SDK** installed on your machine
-2. Navigate to the directory where `CliSlidingPuzzle.fsproj` and `Program.fs` are located.
+2. Navigate to the directory where `CLI_Sliding_Puzzle.fsproj` and `Program.fs` are located.
 3. Open terminal and exeucte 'dotnet run'
 
 # Game Rules
 ## Example Board Layout
-When the game starts, a 3x3 board will be rendered as shown below. The underbar(_) represents an empty space.
+When the game starts, a 3x3 board will be rendered as shown below. The underbar('_') represents an empty space.
 
 ```text
  1 | 3 | 5 
@@ -31,7 +31,7 @@ The goal of this game is to arrange them same as target board, arranged in order
 ## Playing Mode
 The game starts in this state. Shuffled board will be given. The player use keyboard to play.
 ### Movement
-Use Arrow keys(Up, Down, Left, Right) to move empty space(_) and swap with neighbor tiles
+Use Arrow keys(Up, Down, Left, Right) to move empty space('_') and swap with neighbor tiles
 ### Command
 - [R] Reset Board : Make the current puzzle back to the initial state.
 - [A] Answer Guide : Turn into Answer guide mode which shows you sample answer(ensures that the puzzle can be solved).
@@ -50,4 +50,4 @@ To prevent path desynchronization, the input matrix is locked down; only the cor
 
 # Usage of LLM (+ α)
 I used LLM to check if I can get input(by keyboard) in real-time and update the screen, not by using Enter key and showing new board everytimes because it requires 20~30 moves(theoretically).
-Also in Requirement 5, it's written "the game ends", which is too vague. I wanted to make players able to replay, so I will define 'end' in my project to mean that player can choose whether to play again, play new game, or quit.
+Also in Requirement 5, it's written 'the game ends', which is too vague. I wanted to make players able to replay, so I will define 'end' in my project to mean that player can choose whether to play again, play new game, or quit.
