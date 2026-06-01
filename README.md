@@ -10,6 +10,7 @@ This project is a command-line sliding puzzle game. The player is presented with
 ## Example Board Layout
 When the game starts, a 3x3 board will be rendered as shown below. The underbar(_) represents an empty space.
 
+'''text
  1 | 3 | 5 
 ---+---+---
  8 | 2 | 6 
@@ -18,6 +19,7 @@ When the game starts, a 3x3 board will be rendered as shown below. The underbar(
 
 The goal of this game is to arrange them same as target board, arranged in order. In order means
 
+'''text
  1 | 2 | 3 
 ---+---+---
  4 | 5 | 6 
