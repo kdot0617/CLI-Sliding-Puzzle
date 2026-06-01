@@ -47,3 +47,7 @@ To prevent path desynchronization, the input matrix is locked down; only the cor
 ### Command
 - [A] Return : Turns off the Answer guide mode and returns to Playing mode.
 - [Q] Quit : Instantly terminates.
+
+# Usage of LLM (+ α)
+I used LLM to check if I can get input(by keyboard) in real-time and update the screen, not by using Enter key and showing new board everytimes because it requires 20~30 moves(theoretically).
+Also in Requirement 5, it's written "the game ends", which is too vague. I wanted to make players able to replay, so I will define 'end' in my project to mean that player can choose whether to play again, play new game, or quit.
